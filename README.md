@@ -4,13 +4,14 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
 
 ## 🌟 Key Features
 
-### 1. AI-Powered Chat (Groq Integration)
+### 1. AI-Powered Chat & Vision
 - Engage in intelligent conversations about DeFi, crypto markets, and trading strategies
 - Get real-time insights and analysis powered by Groq's advanced language model
+- Analyze images and charts using XAI Vision technology
 - Ask questions about market trends, token analysis, and technical concepts
 
 ### 2. NFT Creation & Minting
-- Generate unique AI art using DALL-E 3
+- Generate unique AI art using DALL-E 3 or SDXL
 - Automatic minting to Base mainnet
 - IPFS integration for decentralized storage
 - Full metadata support with attributes
@@ -34,18 +35,26 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
 - Real-time price updates
 - Portfolio value tracking
 - Market sentiment analysis
+- Chart and image analysis with AI vision
 
 ## 🤖 Bot Commands
 
 ### Basic Commands
 - `/start` - Initialize the bot and display the main menu
 - `/help` - Display help information and command list
+- `/vision` - Analyze images and charts with AI
 
 ### Chat & Analysis Commands
 - `Chat with Groq` - Start an AI conversation about crypto and DeFi
+- `Vision Analysis` - Analyze images and trading charts
 - `Trending Tokens` - View current trending tokens on Base
 - `Check Portfolio` - Analyze any wallet's holdings
 - `Gas Price` - Check current Base network gas prices
+
+### Vision Commands
+- `Vision Analysis` - Analyze images and charts
+  - Format: `image_url | question`
+  - Example: `https://example.com/chart.jpg | What do you see in this trading chart?`
 
 ### Wallet Operations
 - `Check Balance` - View your wallet balance
@@ -73,7 +82,8 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
 
 2. **AI Integration**
    - Groq API for intelligent conversations
-   - DALL-E 3 for NFT art generation
+   - DALL-E 3 and SDXL for NFT art generation
+   - XAI Vision for image and chart analysis
    - Custom prompt engineering for optimal results
 
 3. **Blockchain Integration**
@@ -91,13 +101,16 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
 - **Basescan API**: Transaction and gas price monitoring
 - **Pinata**: IPFS gateway and pinning
 - **OpenAI**: DALL-E 3 image generation
+- **XAI**: Vision model for image analysis
+- **Hyperbolic**: SDXL image generation
 
 ## 🚀 Innovation Highlights
 
 1. **AI-First Approach**
-   - Combines multiple AI models (Groq + DALL-E)
+   - Combines multiple AI models (Groq + DALL-E + XAI Vision)
    - Natural language interaction for complex operations
    - AI-powered market analysis and insights
+   - Advanced image and chart analysis
 
 2. **Base Network Integration**
    - Native support for Base mainnet
@@ -106,6 +119,7 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
 
 3. **NFT Innovation**
    - One-click AI art generation and minting
+   - Multiple generation models (DALL-E 3 & SDXL)
    - Automated IPFS storage
    - Rich metadata and attributes
 
@@ -139,9 +153,11 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
    - Telegram Bot Token (from @BotFather)
    - Groq API Key
    - OpenAI API Key
+   - XAI Vision API Key
    - Pinata API Keys
    - Birdeye API Key
    - Basescan API Key
+   - Hyperbolic API Key
 
 4. **Running the Bot**
    ```bash
@@ -160,11 +176,13 @@ A sophisticated Telegram bot that combines AI-powered trading insights, NFT crea
    - Market prediction models
    - Sentiment analysis
    - Custom trading strategies
+   - Enhanced chart analysis
 
 3. **Community Features**
    - Social trading
    - Community-driven NFT collections
    - Trading competitions
+   - Shared chart analysis
 
 ## 🤝 Contributing
 
